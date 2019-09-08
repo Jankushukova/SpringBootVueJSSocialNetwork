@@ -17,5 +17,7 @@ public class RestRepositoryConfigurator implements RepositoryRestConfigurer {
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
 
 
+
+
     }
 }
