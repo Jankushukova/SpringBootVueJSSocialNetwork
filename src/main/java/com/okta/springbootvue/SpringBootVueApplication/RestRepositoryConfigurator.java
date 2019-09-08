@@ -1,7 +1,6 @@
 package com.okta.springbootvue.SpringBootVueApplication;
 
 //import com.okta.springbootvue.SpringBootVueApplication.models.Post;
-import com.okta.springbootvue.SpringBootVueApplication.models.Todo;
 //import com.okta.springbootvue.SpringBootVueApplication.models.User;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
@@ -16,7 +15,6 @@ public class RestRepositoryConfigurator implements RepositoryRestConfigurer {
 
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
-        config.exposeIdsFor(Todo.class);
 
 
     }
